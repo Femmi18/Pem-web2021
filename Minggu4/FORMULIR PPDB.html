@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form PPDB</title>
+    </head>
+    <body>
+        <div class="container">
+           <h2>FORMULIR PPDB JALUR ZONASI TAHUN 2021</h2>
+        </div>
+        <div class="form-container">
+        <form action="Kontak_kirim.php" method="post" name="formulir">
+            <fieldset style="width:500px ;">
+                <legend>INFO PENDAFTARN</legend>
+                <div class="form-grub">
+                    <div class="label">
+                        <label>NISN :</label>
+                    </div>
+                    <div class="input">
+                        <input type="text" name="NISN" size="30">
+                    </div>
+                </div>
+                <div class="form-grub">
+                    <div class="label">
+                        <label>Asal Sekolah :</label>
+                    </div>
+                    <div class="input">
+                        <input type="text" name="Asal_Sekolah" size="30">
+                    </div>
+                </div>
+                <div class="form-grub">
+                    <div class="label">
+                        <label>Tahun Lulus :</label>
+                    </div>
+                    <div class="input">
+                        <input type="text" name="Tahun" size="15">                                              
+                    </div>
+                    <label>Lampirkan Fotocopy Ijazah :</label>
+                    <br>
+                    <label for="file-upload" class="upload-file">Upload File</label>
+                    <input id="file-upload" type="file" name="foto">
+                </div>
+            </fieldset>
+            <br>
+            <fieldset style="width:500px;">
+                <legend>DATA CALON PESERTA :</legend>
+                <div class="form-grub">
+                    <div class="label">
+                        <label>Nama Lengkap :</label>
+                    </div>
+                    <div class="input">
+                        <input type="text" name="nama" size="30">
+                    </div>
+                </div>
+                <div class="form-grub">
+                    <div class="label">
+                        <label>NIK :</label>
+                    </div>
+                    <div class="input">
+                        <input type="text" name="NIK" size="30">
+                    </div>
+                </div>
+                <div class="form-grub">
+                    <div class="label">
+                        <label>Tempat/Tanggal Lahir :</label>
+                    </div>
+                    <div class="input">
+                        <input type="text" name="Tempat" size="15">
+                        <input type="date" name="Tanggal">                       
+                    </div>
+                <div class="form-grub">
+                     <div class="label">
+                       <label>Umur :</label>
+                     </div>
+                        <div class="input">
+                           <input type="text" name="Umur" size="10">
+                        </div>
+                    </div>    
+                    <label>Lampirkan Fotocopy Akte Kelahiran Yang Telah Dilegalisir :</label>
+                    <br>
+                    <label for="file-upload" class="upload-file">Upload File</label>
+                    <input id="file-upload" type="file" name="foto">
+                    <br>
+                <div class="form-grub"></div>
+                    <div class="label">
+                        <label>Jenis Kelamin :</label>
+                    </div>
+                    <div class="input">
+                        <input type="radio" name="jenis kelamin" value="1"  />Laki-laki 
+                        <input type="radio" name="jenis kelamin" value="2" />Perempuan                       
+                    </div>
+                <div class="form-grub">
+                        <div class="label">
+                            <label>Alamat :</label>
+                        </div>
+                        <div class="input">
+                            <textarea name="Alamat"></textarea>
+                        </div>
+                        <tr>
+                            <td>Desa/Kel.</td>
+                            <td>:</td>
+                            <td><input type:"text" name="Desa/kel" size="30"</td>
+                        </tr>
+                        <br>
+                        <br>
+                        <tr>
+                            <td>Kecamatan</td>
+                            <td>:</td>
+                            <td><input type:"text" name="kecamatan" size="30"</td>
+                        </tr>
+                        <br>
+                        <br>
+                        <tr>
+                            <td>Kabupaten</td>
+                            <td>:</td>
+                            <td><input type:"text" name="Kabupaten" size="30"</td>
+                        </tr>
+                        <br>
+                        <br>
+                        <tr>
+                            <td>Provinsi</td>
+                            <td>:</td>
+                            <td><input type:"text" name="provinsi" size="30"</td>
+                        </tr>
+                        <br>
+                    <div class="form-grub">
+                        <div class="label">
+                            <label>Email Aktif :</label>
+                        </div>
+                        <div class="input">
+                            <input type="email" name="email" size="30">
+                        </div>
+                 </div>
+            </fieldset>
+            <br>
+            <fieldset style="width:500px;">
+                <legend>DATA ORANG TUA</legend>
+                <label>Lampirkan KK :</label>
+                    <br>
+                    <label for="file-upload" class="upload-file">Upload File</label>
+                    <input id="file-upload" type="file" name="foto">
+                <div class="form-grub">
+                    <div class="label">
+                        <label>Nomor Kartu Keluarga :</label>
+                    </div>
+                    <div class="input">
+                        <input type="text" name="nomor" size="30">
+                    </div>
+                </div>
+                <div class="form-grub">
+                    <div class="label">
+                        <label>Nama Ayah Kandung :</label>
+                    </div>
+                    <div class="input">
+                        <input type="text" name="nama" size="30">
+                    </div>
+                </div>
+                <div class="form-grub">
+                    <div class="label">
+                        <label>Agama :</label>
+                    </div>
+                    <div class="input">
+                        <select name="agama">
+                            <option value="">-- Pilih Agama --</option>
+                            <option value="islam">Islam</option>
+                            <option value="Protestan">Protestan</option>
+                            <option value="Katolik">Katolik</option>
+                            <option value="Hindu">Hindu</option>
+                            <option value="Buddha">Buddha</option>
+                            <option value="Khonghucu">Khonghucu</option>
+                        </select>                                              
+                    </div>
+                <div class="form-grub">
+                    <div class="label">
+                         <label>Pekerjaan :</label>
+                     </div>
+                     <div class="input">
+                        <select name="pekerjaan">
+                            <option value="">-- Pilih Pekerjaan --</option>
+                            <option value="pns">PNS</option>
+                            <option value="Swasta">Swasta</option>
+                            <option value="TNI/POLRI">TNI/POLRI</option>
+                            <option value="Petani">Petani</option>
+                            <option value="Pengusaha">Pengusaha</option>
+                            <option value="Pedagang">Pedagang</option>
+                            <option value="Nelayan">Nelayan</option>
+                            <option value="Buruh">Buruh</option>
+                            <option value="Lainnya">Lainnya</option>
+                        </select>                   
+                      </div>
+                 </div>
+                 <div class="form-grub">
+                    <div class="label">
+                        <label>Nama Ibu Kandung :</label>
+                    </div>
+                    <div class="input">
+                        <input type="text" name="nama" size="30">
+                    </div>
+                </div>
+                <div class="form-grub">
+                    <div class="label">
+                        <label>Agama :</label>
+                    </div>
+                    <div class="input">
+                        <select name="agama">
+                            <option value="">-- Pilih Agama --</option>
+                            <option value="islam">Islam</option>
+                            <option value="Protestan">Protestan</option>
+                            <option value="Katolik">Katolik</option>
+                            <option value="Hindu">Hindu</option>
+                            <option value="Buddha">Buddha</option>
+                            <option value="Khonghucu">Khonghucu</option>
+                        </select>                                              
+                    </div>
+                <div class="form-grub">
+                    <div class="label">
+                         <label>Pekerjaan :</label>
+                     </div>
+                     <div class="input">
+                        <select name="pekerjaan">
+                            <option value="">-- Pilih Pekerjaan --</option>
+                            <option value="PNS">PNS</option>
+                            <option value="Swasta">Swasta</option>
+                            <option value="TNI/POLRI">TNI/POLRI</option>
+                            <option value="Petani">Petani</option>
+                            <option value="Pengusaha">Pengusaha</option>
+                            <option value="Pedagang">Pedagang</option>
+                            <option value="IRT">IRT</option>
+                            <option value="Buruh">Buruh</option>
+                            <option value="Lainnya">Lainnya</option>
+                        </select>       
+                      </div>
+                 </div>
+                 <div class="form-grub">
+                    <div class="label">
+                        <label>Alamat Orang Tua :</label>
+                    </div>
+                    <div class="input">
+                        <textarea name="Alamat"></textarea>
+                    </div>
+                    <tr>
+                        <td>Desa/Kel.</td>
+                        <td>:</td>
+                        <td><input type:"text" name="Desa/kel" size="30"</td>
+                    </tr>
+                    <br>
+                    <br>
+                    <tr>
+                        <td>Kecamatan</td>
+                        <td>:</td>
+                        <td><input type:"text" name="kecamatan" size="30"</td>
+                    </tr>
+                    <br>
+                    <br>
+                    <tr>
+                        <td>Kabupaten</td>
+                        <td>:</td>
+                        <td><input type:"text" name="Kabupaten" size="30"</td>
+                    </tr>
+                    <br>
+                    <br>
+                    <tr>
+                        <td>Provinsi</td>
+                        <td>:</td>
+                        <td><input type:"text" name="provinsi" size="30"</td>
+                    </tr>
+                    <br>
+                </div>
+            </fieldset>
+        </form> 
+            <br>
+            <div style="text-align: center;">
+             <input type="submit" name="submit" value="Kirim">
+             <input type="reset" name="reset" value="Batal">
+            </div>
+           
+        </div> 
+        
+    </body>
+</html>
