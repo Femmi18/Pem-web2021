@@ -1,0 +1,40 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+  <title>Contoh selektor atribut</title> 
+</head> 
+ 
+<body> 
+  <style type="text/css">
+    input[type=text] { 
+    background: none; 
+    color: cyan; 
+    padding: 50px; 
+    border: 1px solid cyan;
+}
+    input[type=password] { 
+    background: none; 
+    color: rgb(21, 255, 0); 
+    padding: 20px; 
+    border: 1px solid rgb(21, 255, 0);
+    margin: 20px; 
+}
+    input[type=email] { 
+    background: none; 
+    color: red; 
+    padding: 20px; 
+    border: 1px solid red;
+    margin: 20px; 
+}
+  </style>
+  <input type="text" placeholder="ketik sesuatu..." />
+  <br>
+  <br>
+  <div>Email :
+    <input type="email" placeholder="masukan email..." />
+  </div>
+  <div>Password :
+    <input type="password" placeholder="masukan password..." />
+  </div>
+</body> 
+</html> 

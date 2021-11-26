@@ -1,0 +1,17 @@
+p { 
+    font-family: serif; 
+    line-height: 1.75em;
+    background: green;
+    padding: 10px; 
+} 
+ 
+i { 
+    font-family: sans; 
+    color: orange; 
+} 
+ 
+h2 { 
+    font-family: sans; 
+    color: #333; 
+    text-align: center;
+}
