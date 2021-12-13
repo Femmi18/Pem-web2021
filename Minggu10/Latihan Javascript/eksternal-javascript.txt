@@ -1,0 +1,3 @@
+eksternal-js/
+├── kode.js
+└── index.html
