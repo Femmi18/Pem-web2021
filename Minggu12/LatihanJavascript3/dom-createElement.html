@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>DOM API Javascript</title>
+</head>
+
+<body>
+
+<script>
+// membuat element h1
+var judul = document.createElement("h1");
+var text = document.createElement("h3");
+
+// mengisi kontent elemen 
+judul.textContent = "Belajar Javascript";
+text.textContent = "Saya Femmi Widyawati ingin belajar JavaScript";
+
+// menambahkan elemen ke dalam tag body
+document.body.append(judul);
+document.body.append(text);
+</script>
+
+</body>
+</html>
