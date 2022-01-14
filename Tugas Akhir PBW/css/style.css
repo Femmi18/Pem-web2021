@@ -1,0 +1,232 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+ a{
+     text-decoration: none;
+     font-size: 20px;
+     font-family: sans-serif;
+     padding: 14px 10px;
+ }
+ ul{
+     padding: 14px;
+ }
+ li{
+     list-style: none;
+     display: inline;
+ }
+ li a{
+     background: #222;
+     color: #d4d4d4;
+ }
+ li a:hover{
+     background: gray;
+     color: #fff;
+ }
+ .container{
+     background: #222;
+     height: 50px;
+ }
+
+body{
+    background-color: rgb(252, 247, 247);
+}
+.logo h1{
+    position: absolute;
+    color: black;
+    text-align: center;
+    font-size: 80px;
+    top: 300px;
+    margin-left: 200px;
+}
+.logo h2{
+    position: absolute;
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    top: 400px;
+    margin-left: 330px;
+}
+.logo img{
+    width: 100%;
+    height: 700px;
+}
+.paragraf{
+    text-align: justify;
+}
+.grombyang{
+    width: 400px;
+    height: 200px;
+    float: right;
+    padding: 5px;
+}
+.gandul{
+    width: 400px;
+    height: 200px;
+    float: right;
+    padding: 5px;
+
+}
+.capt1{
+    position: absolute;
+    top: 150%;
+    margin-left: 1050px;
+}
+.capt2{
+    position: absolute;
+    top: 150%;
+    margin-left: 680px;
+}
+footer p{
+    text-align: center;
+    float: right;
+    margin-right: 40%;
+    margin-top: 80px;
+}
+.conten{
+    text-align: center;   
+}
+.judul h1{
+    position: absolute;
+    color: black;
+    text-align: center;
+    font-size: 80px;
+    top: 350px;
+    margin-left: 400px;
+}
+.judul img{
+    width: 100%;
+    height: 50%;
+}
+.composer img{
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+.composer h1{
+    text-align: center;
+}
+.composer h3{
+    text-align: center;
+}
+.menu{
+    font-size: 80px;
+    text-align: center;
+}
+.src-box{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: gray;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+}
+.src-box:hover > .src-txt{
+    width: 240px;
+    padding: 0 6px;
+}
+.src-box:hover > .src-button{
+    background: honeydew;
+}
+.src-button{
+    color: blue;
+    float: right;
+    width: 30px;
+    height: 15px;
+    border-radius: 50%;
+    background: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+.src-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: #222;
+    font-size: 16px;
+    transition: 0.04s;
+    line-height: 40px;
+    width: 0;
+}
+.menu1{
+    width: 410px;
+    height: 250px;
+    float: left;
+    padding: 15px;
+    margin-top: 300px;
+}
+.menu2{
+    width: 410px;
+    height: 250px;
+    float: left;
+    padding: 15px;
+    margin-top: 300px;
+}
+.menu3{
+    width: 410px;
+    height: 250px;
+    float: left;
+    padding: 15px;
+    margin-top: 277px;
+}
+.figcap1{
+    position: absolute;
+    top: 112%;
+    margin-left: 140px;
+}
+.figcap2{
+    position: absolute;
+    top: 112%;
+    margin-left: 600px;
+}
+.figcap3{
+    position: absolute;
+    top: 112%;
+    margin-left: 1050px;
+}
+.menu4{
+    width: 410px;
+    height: 250px;
+    float: left;
+    padding: 15px;
+    margin-top: 100px;
+}
+.menu5{
+    width: 410px;
+    height: 250px;
+    float: left;
+    padding: 15px;
+    margin-top: 100px;
+}
+.menu6{
+    width: 410px;
+    height: 250px;
+    float: left;
+    padding: 15px;
+    margin-top: 100px;
+}
+.figcap4{
+    position: absolute;
+    top: 171%;
+    margin-left: 140px; 
+}
+.figcap5{
+    position: absolute;
+    top: 171%;
+    margin-left: 600px;
+}
+.figcap6{
+    position: absolute;
+    top: 171%;
+    margin-left: 1050px;
+}
+

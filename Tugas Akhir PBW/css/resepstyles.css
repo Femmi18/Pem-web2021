@@ -1,0 +1,51 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+ a{
+     text-decoration: none;
+     font-size: 20px;
+     font-family: sans-serif;
+     padding: 14px 10px;
+ }
+ ul{
+     padding: 14px;
+ }
+ li{
+     list-style: none;
+     display: inline;
+ }
+ li a{
+     background: #222;
+     color: #d4d4d4;
+ }
+ li a:hover{
+     background: gray;
+     color: #fff;
+ }
+ .container{
+     background: #222;
+     height: 50px;
+ }
+ img{
+     
+    height: 500px;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+ }
+ .resep p{
+     text-align: justify;
+     margin-left: 10px;
+ }
+ .resep h1{
+     text-align: center;
+ }
+ .resep h2{
+     margin-left: 5px;
+ }
+ .resep h4{
+     margin-left: 5px;
+ }

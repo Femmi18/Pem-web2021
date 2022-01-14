@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>ensiklopedia</title>
+        <link rel="stylesheet" type="text/css" href="style.css"> 
+    </head>
+    <body>
+        <header>
+          <nav class="container">
+            <ul>
+               <li><a href="index.html">Home</a></li> 
+               <li><a href="tentang.html">About</a></li>
+               <li><a href="menu.html">Menu</a></li>  
+               <li><a href="kontak.html">Contact</a></li>
+            </ul>
+          </nav>
+              <div class="logo">
+                  <h1>ENSIKLOPEDIA</h1>
+                  <h2>RESEP MASAKAN <br>
+                    JAWA TENGAH</h2>
+                <img src="logo.jpeg">
+              </div>
+        </header>
+        <p class="paragraf" id="text">  
+            <img class="grombyang" src="grombyang.jpeg">
+            <img class="gandul" src="gandul.jpeg">
+            <h2 class="capt1">Nasi Grombyang</h2> 
+            <h2 class="capt2">Nasi Gandul</h2>   
+            Kuliner Indonesia dipengaruhi oleh beberapa faktor seperti alam, sejarah, dan budaya.
+            Dengan keragaman geografis dan budaya di seluruh nusantara, terbukti Indonesia kaya akan makanan khas.
+            <br><br>
+            Setiap daerah, pasti memiliki cita rasa tersendiri sehingga setiap daerah memiliki tradisi kuliner yang berbeda-beda.
+            <br><br> 
+            Provinsi Jawa Tengah memiliki makanan khas yang cenderung manis atau tidak terlalu pedas,
+            menggunakan bumbu bawang putih dan sedikit rempah, serta santan.
+        </p>
+
+        <script type="text/javascript">
+            var i=0;
+            var text = "Kuliner Indonesia dipengaruhi oleh beberapa faktor seperti alam, sejarah, dan budaya. Dengan keragaman geografis dan budaya di seluruh nusantara, terbukti Indonesia kaya akan makanan khas.";
+
+            function typing() {
+                if (i<text.length) {
+                    document.getElementById("text").innerHTML += text.charAt(i);
+                    i++;
+                    setTimeout(typing,80);
+                }
+            }
+        </script>
+
+        <footer>
+            <p><b> &nbsp;&nbsp;&nbsp;&nbsp; Copyright &copy2022 FemmiWidyawati<br><Br></b></p>
+        </footer>      
+    </body>
+</html>
+

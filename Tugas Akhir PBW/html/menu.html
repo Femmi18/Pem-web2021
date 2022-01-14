@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://kit.fontawesome.com/a34aa0552a.js" crossorigin="anonymous"></script>
+        <title>menu</title>
+        
+    </head>
+    <body background="background-menu.jpeg">
+        <header>
+          <nav class="container">
+            <ul>
+               <li><a href="index.html">Home</a></li> 
+               <li><a href="tentang.html">About</a></li>
+               <li><a href="menu.html">Menu</a></li> 
+               <li><a href="kontak.html">Contact</a></li>
+            </ul>
+          </nav>
+        </header>
+
+        <h1 class="menu">MENU</h1>
+
+        <div class="src-box">
+          <input class="src-txt" type="text" name="" placeholder="Cari...">
+          <a class="src-button" href="menu.html"><i class="fas fa-search"></i>
+          </a>
+        </div>
+        <h2 class="figcap1">Nasi Grombyang</h2> 
+        <h2 class="figcap2">Nasi Gandul</h2> 
+        <h2 class="figcap3">Lumpia</h2> 
+            <a href="nasi-grombyang.html">
+            <img class="menu1" src="grombyang.jpeg">
+            </a>
+            <a href="nasi-gandul.html">
+            <img class="menu2" src="gandul.jpeg">
+            </a>
+            <a href="lumpia.html">
+            <img class="menu3" src="banner.jpeg">
+            </a> 
+            <a href="sop-balungan.html">
+              <img class="menu4" src="sop-balungan.jpeg">
+            </a>
+            <a href="soto-kudus.html">
+              <img class="menu5"src="soto-kudus.jpeg">
+            </a> 
+            <a href="mangut-beong.html">
+              <img class="menu6" src="mangut-beong.jpeg">
+            </a>
+        <h2 class="figcap4">Sop Balungan</h2> 
+        <h2 class="figcap5">Soto Kudus</h2> 
+        <h2 class="figcap6">Mangut Beong</h2>
+
+        <script>
+          var menu = document.getElementsByClassName("menu"); console.log(menu);
+          var menu = document.getElementsByClassName("menu"); setInterval(function () {
+          menu[0].style.color = "red";
+          
+          setTimeout(function () { menu[0].style.color = "black";
+          }, 500)
+          }, 1000);
+        </script>
+            
+            <footer>
+              <p><b> &nbsp;&nbsp;&nbsp;&nbsp; Copyright &copy2022 FemmiWidyawati<br><br></b></p>
+          </footer>
+    </body>
+</html>
